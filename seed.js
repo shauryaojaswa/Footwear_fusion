@@ -5,34 +5,34 @@ const Product = require('./models/Product');
 
 const products = [
     {
-        name:"Iphone 14pro",
-        img:"https://images.unsplash.com/photo-1663499482523-1c0c1bae4ce1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGlwaG9uZTE0cHJvfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" ,
-        price: 130000,
-        desc: "very costly, aukaat ke bahar" 
+        name:"Reebok",
+        img:"https://images.unsplash.com/photo-1530389912609-9a007b3c38a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJlZWJvayUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" ,
+        price: 13000,
+        desc: "Reebok is one of India's most well-known shoe companies." 
     },
     {
-        name:"Macbook m2 pro",
-        img:"https://media.istockphoto.com/id/1441194641/photo/macbook-pro-16-keyboard.webp?b=1&s=170667a&w=0&k=20&c=vgawd7HFjNtU4H4596IZkU2SE9YRXtz-ROUgSvndAPQ=",
-        price: 250000 , 
-        desc:"ye to bilkul hi aukaatke bahar"
+        name:"Adidas",
+        img:"https://images.unsplash.com/photo-1518002171953-a080ee817e1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWRpZGFzJTIwc2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        price: 25000 , 
+        desc:"Adidas is the second-largest sportswear manufacturer in the world."
     },
     {
-        name:"Iwatch",
+        name:"Nike",
         price:51000,
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzEBWSIT--95okkMi-UzyJcT0RpNufBUVCw&usqp=CAU",
-        desc:"ye sasta hai lelo"
+        img:"https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWRpZGFzJTIwc2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        desc:"Nike is, without a doubt, the greatest and most dependable shoe brand in the world."
     },
     {
-        name:"iPad Pro", 
-        img: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aXBhZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60", 
-        price: 237900, 
-        desc: "life mein kuch cheese sirf dekhne ke liye hota hai"
+        name:"Puma", 
+        img: "https://images.unsplash.com/photo-1608379894453-c6b729b05596?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHVtYSUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60", 
+        price: 23790, 
+        desc: "PUMA is a well-known footwear manufacturer that focuses on sports shoes."
     },
     {
-        name:"airpods" , 
-        img:"https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFpcnBvZHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" , 
+        name:"Woodland" , 
+        img:"https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" , 
         price: 25000 ,
-        desc: "badiya hai kamao kamao"
+        desc: "Woodland is a brand that offers high-quality shoes and boots for men."
     }
 ]
 
