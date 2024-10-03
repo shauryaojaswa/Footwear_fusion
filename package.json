@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./app.js"
   },
-  "author": "Akshay Gaur",
+  "author": "Ojaswa Mohan Srivastava",
   "license": "ISC",
   "dependencies": {
     "connect-flash": "^0.1.1",
