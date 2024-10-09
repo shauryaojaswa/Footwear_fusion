@@ -24,7 +24,7 @@ const dbURL = process.env.dbURL || 'mongodb://127.0.0.1:27017/shopping-sam-app';
 //     .then(() => console.log('DB Connected'))
 //     .catch((err) => console.log(err));
 
-mongoose.connect('mongodb://127.0.0.1:27017/shopping-sam-app')
+mongoose.connect('mongodb+srv://ojaswag5:Ojaswa@cluster0.y5ru2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then(()=>{
     console.log("DB connected successfully")
 })
